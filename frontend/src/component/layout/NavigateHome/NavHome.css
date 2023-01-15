@@ -1,0 +1,50 @@
+.btn
+{
+    position:fixed;
+    bottom:5vmax;
+    right:3vmax;
+    height: 3vmax;
+    width: 3vmax;
+    border-radius: 50%;
+    color:tomato;
+    background-color: white;
+    display:flex;
+    justify-content: center;
+    border: 0.05vmax solid tomato;
+    transition-duration: 0.5s;
+    
+}
+.btn :first-child
+{
+    align-self: center;
+}
+.btn:hover{
+    color:white;
+    background-color: tomato;
+    border: double;
+    border-color: white;
+    border-width:0.32vmax;
+    height: 2vmax;
+    width: 2vmax;
+   
+}
+
+@media screen  and (max-width: 600px){
+
+    .btn {
+            height: 4vmax;
+            width: 4vmax;
+        }
+      .btn :hover {
+            color: white;
+                background-color: tomato;
+                border: double;
+                border-color: white;
+                border-width: 0.32vmax;
+                height: 4vmax;
+                width: 4vmax;
+                border-radius: 50%;
+      }
+    
+}
+

@@ -1,0 +1,73 @@
+.RC {
+
+    margin: auto;
+    padding: 10vmax;
+    height: 50vh;
+
+}
+.RC>div
+{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.RC >div>img
+{
+ color:tomato;
+ height: 5vmax;
+ width: 5vmax;
+ 
+}
+.RC>div>h1
+{
+    color:tomato;
+
+}
+
+.RC > p{
+
+   color:rgb(61, 60, 60);
+   font-size: 1.5vmax;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 2vmax 0;
+}
+
+.btnn{
+    background-color: tomato;
+    color:white;
+    border:none;
+    height: 3vmax;
+    width:6vmax;
+    border-radius: 0.5vmax;
+
+    cursor:pointer;
+
+}
+
+.RC>p>b{
+    color:tomato;
+}
+
+@media screen and (max-width: 600px) {
+ .RC {
+       
+        height: 41.2vh;
+        padding-left: 10vmax;
+        padding-top: 20vh;
+
+    }
+
+
+.RC>div>h1 {
+    color: tomato;
+    font-size: 1.8vmax;
+
+
+}
+
+
+
+    
+}
